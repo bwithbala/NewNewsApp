@@ -96,7 +96,7 @@ var Application = {
                      .append($('<h3>').html('<a href="' + items[i].link + '" target="_blank">' + items[i].title + '</a>')) // Add title
                      .append($('<p>').html(items[i].contentSnippet)) // Add description
                      .append($('<p>').text('Author: ' + items[i].author))
-                     .append($('<p>').text('Author: ' + items[i].pubDate))
+                     .append($('<p>').text('Date: ' + items[i].publishedDate))
                      .append(
                         $('<a href="' + items[i].link + '" target="_blank" data-role="button">')
                            .text('Go to the Article')
